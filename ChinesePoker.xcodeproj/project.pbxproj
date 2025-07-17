@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C30D46A2E28EF8D0005FAB8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 4C30D4692E28EF8D0005FAB8 /* FirebaseDatabase */; };
+		4C78696A2E25357000763006 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 4C7869692E25357000763006 /* FirebaseAnalytics */; };
+		4C78696C2E25357000763006 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C78696B2E25357000763006 /* FirebaseAnalyticsCore */; };
+		4C78696E2E25357000763006 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4C78696D2E25357000763006 /* FirebaseAuth */; };
+		4C7869702E25357000763006 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C78696F2E25357000763006 /* FirebaseCore */; };
+		4C7869722E25357000763006 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4C7869712E25357000763006 /* FirebaseFirestore */; };
+		4C7869742E25357000763006 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4C7869732E25357000763006 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C7869482E25324000763006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7869292E25323E00763006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C7869302E25323E00763006;
+			remoteInfo = ChinesePoker;
+		};
+		4C7869522E25324000763006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C7869292E25323E00763006 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C7869302E25323E00763006;
+			remoteInfo = ChinesePoker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C7869312E25323E00763006 /* ChinesePoker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChinesePoker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7869472E25324000763006 /* ChinesePokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinesePokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7869512E25324000763006 /* ChinesePokerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChinesePokerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4C7869592E25324000763006 /* Exceptions for "ChinesePoker" folder in "ChinesePoker" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4C7869302E25323E00763006 /* ChinesePoker */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4C7869332E25323E00763006 /* ChinesePoker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4C7869592E25324000763006 /* Exceptions for "ChinesePoker" folder in "ChinesePoker" target */,
+			);
+			path = ChinesePoker;
+			sourceTree = "<group>";
+		};
+		4C78694A2E25324000763006 /* ChinesePokerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChinesePokerTests;
+			sourceTree = "<group>";
+		};
+		4C7869542E25324000763006 /* ChinesePokerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChinesePokerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C78692E2E25323E00763006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C78696A2E25357000763006 /* FirebaseAnalytics in Frameworks */,
+				4C78696E2E25357000763006 /* FirebaseAuth in Frameworks */,
+				4C7869702E25357000763006 /* FirebaseCore in Frameworks */,
+				4C7869722E25357000763006 /* FirebaseFirestore in Frameworks */,
+				4C78696C2E25357000763006 /* FirebaseAnalyticsCore in Frameworks */,
+				4C30D46A2E28EF8D0005FAB8 /* FirebaseDatabase in Frameworks */,
+				4C7869742E25357000763006 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7869442E25324000763006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78694E2E25324000763006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C7869282E25323E00763006 = {
+			isa = PBXGroup;
+			children = (
+				4C7869332E25323E00763006 /* ChinesePoker */,
+				4C78694A2E25324000763006 /* ChinesePokerTests */,
+				4C7869542E25324000763006 /* ChinesePokerUITests */,
+				4C7869322E25323E00763006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C7869322E25323E00763006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C7869312E25323E00763006 /* ChinesePoker.app */,
+				4C7869472E25324000763006 /* ChinesePokerTests.xctest */,
+				4C7869512E25324000763006 /* ChinesePokerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C7869302E25323E00763006 /* ChinesePoker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78695A2E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePoker" */;
+			buildPhases = (
+				4C78692D2E25323E00763006 /* Sources */,
+				4C78692E2E25323E00763006 /* Frameworks */,
+				4C78692F2E25323E00763006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4C7869332E25323E00763006 /* ChinesePoker */,
+			);
+			name = ChinesePoker;
+			packageProductDependencies = (
+				4C7869692E25357000763006 /* FirebaseAnalytics */,
+				4C78696B2E25357000763006 /* FirebaseAnalyticsCore */,
+				4C78696D2E25357000763006 /* FirebaseAuth */,
+				4C78696F2E25357000763006 /* FirebaseCore */,
+				4C7869712E25357000763006 /* FirebaseFirestore */,
+				4C7869732E25357000763006 /* FirebaseStorage */,
+				4C30D4692E28EF8D0005FAB8 /* FirebaseDatabase */,
+			);
+			productName = ChinesePoker;
+			productReference = 4C7869312E25323E00763006 /* ChinesePoker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C7869462E25324000763006 /* ChinesePokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C78695F2E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePokerTests" */;
+			buildPhases = (
+				4C7869432E25324000763006 /* Sources */,
+				4C7869442E25324000763006 /* Frameworks */,
+				4C7869452E25324000763006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7869492E25324000763006 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C78694A2E25324000763006 /* ChinesePokerTests */,
+			);
+			name = ChinesePokerTests;
+			packageProductDependencies = (
+			);
+			productName = ChinesePokerTests;
+			productReference = 4C7869472E25324000763006 /* ChinesePokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C7869502E25324000763006 /* ChinesePokerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C7869622E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePokerUITests" */;
+			buildPhases = (
+				4C78694D2E25324000763006 /* Sources */,
+				4C78694E2E25324000763006 /* Frameworks */,
+				4C78694F2E25324000763006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C7869532E25324000763006 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4C7869542E25324000763006 /* ChinesePokerUITests */,
+			);
+			name = ChinesePokerUITests;
+			packageProductDependencies = (
+			);
+			productName = ChinesePokerUITests;
+			productReference = 4C7869512E25324000763006 /* ChinesePokerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C7869292E25323E00763006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					4C7869302E25323E00763006 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					4C7869462E25324000763006 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4C7869302E25323E00763006;
+					};
+					4C7869502E25324000763006 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 4C7869302E25323E00763006;
+					};
+				};
+			};
+			buildConfigurationList = 4C78692C2E25323E00763006 /* Build configuration list for PBXProject "ChinesePoker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C7869282E25323E00763006;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4C7869322E25323E00763006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C7869302E25323E00763006 /* ChinesePoker */,
+				4C7869462E25324000763006 /* ChinesePokerTests */,
+				4C7869502E25324000763006 /* ChinesePokerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C78692F2E25323E00763006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7869452E25324000763006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78694F2E25324000763006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C78692D2E25323E00763006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7869432E25324000763006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C78694D2E25324000763006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C7869492E25324000763006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C7869302E25323E00763006 /* ChinesePoker */;
+			targetProxy = 4C7869482E25324000763006 /* PBXContainerItemProxy */;
+		};
+		4C7869532E25324000763006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C7869302E25323E00763006 /* ChinesePoker */;
+			targetProxy = 4C7869522E25324000763006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4C78695B2E25324000763006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChinesePoker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C78695C2E25324000763006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChinesePoker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePoker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C78695D2E25324000763006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C78695E2E25324000763006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C7869602E25324000763006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinesePoker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChinesePoker";
+			};
+			name = Debug;
+		};
+		4C7869612E25324000763006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePokerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChinesePoker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChinesePoker";
+			};
+			name = Release;
+		};
+		4C7869632E25324000763006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinesePoker;
+			};
+			name = Debug;
+		};
+		4C7869642E25324000763006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZivNesher.ChinesePokerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChinesePoker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C78692C2E25323E00763006 /* Build configuration list for PBXProject "ChinesePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78695D2E25324000763006 /* Debug */,
+				4C78695E2E25324000763006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C78695A2E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePoker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C78695B2E25324000763006 /* Debug */,
+				4C78695C2E25324000763006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C78695F2E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7869602E25324000763006 /* Debug */,
+				4C7869612E25324000763006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C7869622E25324000763006 /* Build configuration list for PBXNativeTarget "ChinesePokerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C7869632E25324000763006 /* Debug */,
+				4C7869642E25324000763006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.15.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C30D4692E28EF8D0005FAB8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		4C7869692E25357000763006 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		4C78696B2E25357000763006 /* FirebaseAnalyticsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsCore;
+		};
+		4C78696D2E25357000763006 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4C78696F2E25357000763006 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		4C7869712E25357000763006 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4C7869732E25357000763006 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C7869682E25357000763006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4C7869292E25323E00763006 /* Project object */;
+}

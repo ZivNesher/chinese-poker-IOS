@@ -1,0 +1,14 @@
+# Xcode & macOS
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Swift Package Manager cache
+.build/
+
+# Logs
+*.log
+
+# Personal secrets
+path/to/secret.key          # replace with the actual removed key path
+GoogleService-Info.plist    # keep here only if you DON'T want it in Git
