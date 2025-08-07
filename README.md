@@ -23,6 +23,14 @@ open ChinesePoker.xcodeproj
 ```
 
 ## Screenshots
+
+
+
+
+https://github.com/user-attachments/assets/6218af5f-96ed-42b8-a430-82b77d89df6d
+
+
+
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-07-17 at 12 50 32" src="https://github.com/user-attachments/assets/df6b7dd7-6bae-4193-b9f1-a662e00cfa0d" />
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-07-17 at 12 50 44" src="https://github.com/user-attachments/assets/732543f1-d773-4a40-8b7f-20114f6e0829" />
 <img width="1179" height="2556" alt="Simulator Screenshot - iPhone 16 - 2025-07-17 at 12 51 09" src="https://github.com/user-attachments/assets/09ee1bc7-7581-4ad6-ae2f-453a74c731e3" />
